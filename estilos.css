@@ -455,3 +455,33 @@ aside nav a {
 aside nav a:hover {
      opacity: 1;
 }
+
+
+/** GALERIA */
+
+
+.gallery {
+     display: flex;
+}
+
+.column {
+     flex: 30%;
+}
+
+.imgContainer {
+     position: relative;
+     height: 300px;
+     overflow: hidden;
+}
+
+.imgContainer img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     object-position: center;
+     transition: all .5s;
+}
+
+.imgContainer:hover img {
+     transform: scale(1.1);
+}
