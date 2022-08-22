@@ -6,6 +6,7 @@
 
 :root {
      --color-principal: #6610f2;
+     --color-principal-oscuro: #581abd;
      --color-secundario: #0c91e5;
      --color-alternativo: #ff6537;
      --color-gris: #6c757d;
@@ -484,4 +485,24 @@ aside nav a:hover {
 
 .imgContainer:hover img {
      transform: scale(1.1);
+}
+
+
+/** Footer - Copy Right */
+
+
+.copy {
+     height: 40px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: var(--color-principal-oscuro);
+}
+
+.copy p {
+     font-size: 14px;
+     font-style: italic;
+     color: #fff;
+     opacity: .5;
 }
